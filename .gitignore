@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AutoMate/.vs/AutoMate/config
+/AutoMate/.vs/AutoMate/FileContentIndex
+/AutoMate/.vs/AutoMate/DesignTimeBuild
+/AutoMate/.vs/AutoMate/v17/TestStore/0
+/AutoMate/Architecture.Tests/bin
+/AutoMate/Architecture.Tests/obj
+/AutoMate/ArchitectureTests/bin/Debug/net7.0
+/AutoMate/ArchitectureTests/obj/Debug/net7.0
+/AutoMate/ArchitectureTests/obj
+/AutoMate/.vs
+/AutoMate/AutoMate/bin/Debug
+/AutoMate/AutoMate/obj
+/AutoMate/Automate.Application/bin/Debug/net7.0
+/AutoMate/Automate.Application/obj
+/AutoMate/Automate.Domain/bin/Debug/net7.0
+/AutoMate/Automate.Domain/obj
+/AutoMate/Automate.Infrastructure
