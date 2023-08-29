@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Automate.Domain\Automate.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Queries\Appointment\" />
+    <Folder Include="Queries\Maintenance\" />
+    <Folder Include="Queries\Technician\" />
+    <Folder Include="Queries\Owner\" />
+  </ItemGroup>
+
+</Project>
